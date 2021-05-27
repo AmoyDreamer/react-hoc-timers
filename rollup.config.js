@@ -2,6 +2,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import { babel } from '@rollup/plugin-babel';
 import { uglify } from 'rollup-plugin-uglify';
+import { eslint } from "rollup-plugin-eslint";
 
 let config = {
     input: 'src/index.js',
@@ -12,6 +13,9 @@ let config = {
     external: ['react'],
     plugins: [
         nodeResolve(),
+        eslint({
+            fix: true
+        }),
         babel({
             "exclude": 'node_modules/**',
             "babelHelpers": 'bundled',
