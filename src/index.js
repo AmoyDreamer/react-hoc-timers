@@ -1,6 +1,6 @@
 /**
  * @author Allen Liu
- * @desc A higher-order component of React that support multi-timers management.
+ * @desc A higher-order component of React based on setInterval, clearInterval, setTimeout and clearTimeout that support multi-timers management.
  */
 const react = require('react')
 
