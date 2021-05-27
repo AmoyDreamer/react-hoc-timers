@@ -1,6 +1,6 @@
 {
   "name": "react-hoc-timers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A higher-order component of React based on setInterval, clearInterval, setTimeout and clearTimeout that support multi-timers management.",
   "main": "index.js",
   "scripts": {
