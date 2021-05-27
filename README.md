@@ -34,8 +34,8 @@ class MyComponent extends React.component {}
 ```
 class MyComponent extends React.component {
     constructor(props) {
-		super(props)
-	}
+    	super(props)
+    }
     componentDidMount() {
         const { setInterval, clearInterval, setTimeout } = this.props
         # call setInterval
