@@ -2,10 +2,10 @@
  * @author Allen Liu
  * @desc A higher-order component of React that support multi-timers management.
  */
-import { Component } from 'react'
+const react = require('react')
 
-export default ComposedComponent => {
-    class Timer extends Component {
+const Timer = (ComposedComponent) => {
+    return class extends react.Component {
         intervals = []
         timeouts = []
         constructor(props) {
@@ -56,5 +56,5 @@ export default ComposedComponent => {
             return <ComposedComponent {...props}/>
         }
     }
-    return Timer
 }
+module.exports = Timer
