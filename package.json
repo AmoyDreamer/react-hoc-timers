@@ -1,7 +1,7 @@
 {
   "name": "react-hoc-timers",
   "version": "1.0.0",
-  "description": "A higher-order component of React that support multi-timers management.",
+  "description": "A higher-order component of React based on setInterval, clearInterval, setTimeout and clearTimeout that support multi-timers management.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
