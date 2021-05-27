@@ -25,7 +25,7 @@ import Timer from 'react-hoc-timers'
 ```
 const EnhancedComponent = Timer(MyComponent)
 ```
-You can use the decorators feature of es2015, like this
+You can use the Decorator feature of ECMAScript 6, like this
 ```
 @Timer
 class MyComponent extends React.component {}
