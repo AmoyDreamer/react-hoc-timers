@@ -38,13 +38,13 @@ class MyComponent extends React.component {
     }
     componentDidMount() {
         const { setInterval, clearInterval, setTimeout } = this.props
-        # call setInterval
+        // call setInterval
         let id = setInterval(() => {
             console.log('interval')
-            # call clearInterval
+            // call clearInterval
             clearInterval(id)
         }, 3000)
-        # call setTimeout
+        // call setTimeout
         setTimeout(() => {
             console.log('timeout')
         }, 5000)
